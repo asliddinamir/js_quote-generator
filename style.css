@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1490237251747-4557595144b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMDcxMTcwfHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.quotecard{
+    background-color: #ccc;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    padding: 2rem;
+    padding-top: .5rem;
+}
+.quotecard .title{
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: -2rem;
+    background: rgb(32, 167, 120);
+    padding-inline: 0;
+    padding-block: .8rem;
+    border-radius: 10px;
+    color: rgb(20, 1, 1);
+
+}
+
+.quotecard .quote{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    padding-block: 1rem;
+    font-family: fantasy;
+}
+.quotecard .author{
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 2rem;
+    color: green;
+}
+
+.quotecard .btn{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: orange;
+    color: black;
+}
+
+footer {
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background: #222;
+    padding-block: 1rem;
+    z-index: 1000;
+}
+
+.name {
+    font-size: .9rem;
+    color: white;
+    font-weight: 300;
+    font-family: inherit;
+}
+
+.name a {
+    color: rgb(76, 196, 60);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media(max-width: 600px){
+    .quotecard{
+        width: 80%;
+    }
+}
+
+@media(max-width:447px){
+    .quotecard .btn{
+        font-size: 1.1rem;
+    }
+    .quotecard .title{
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width: 371px){
+    .quotecard .btn{
+        font-size: .9rem;
+    }
+    .quotecard .title{
+        font-size: .9rem;
+    }
+}
