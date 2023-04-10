@@ -116,6 +116,7 @@ footer {
     }
 }
 
+
 @media(max-width: 371px){
     .quotecard .btn{
         font-size: .9rem;
