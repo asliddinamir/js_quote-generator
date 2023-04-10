@@ -97,14 +97,20 @@ footer {
     .quotecard{
         width: 80%;
     }
+    .quotecard .quote{
+        font-size: 1rem;
+    }
 }
 
 @media(max-width:447px){
     .quotecard .btn{
-        font-size: 1.1rem;
+        font-size: .9rem;
     }
     .quotecard .title{
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+    .quotecard .quote{
+        font-size: .9rem;
     }
 }
 
@@ -114,5 +120,8 @@ footer {
     }
     .quotecard .title{
         font-size: .9rem;
+    }
+    .quotecard .quote{
+        font-size: .8rem;
     }
 }
