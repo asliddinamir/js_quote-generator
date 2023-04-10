@@ -81,6 +81,7 @@ footer {
     z-index: 1000;
 }
 
+
 .name {
     font-size: .9rem;
     color: white;
@@ -119,7 +120,7 @@ footer {
 
 @media(max-width: 371px){
     .quotecard .btn{
-        font-size: .9rem;
+        font-size: .92rem;
     }
     .quotecard .title{
         font-size: .9rem;
