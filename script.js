@@ -9,7 +9,7 @@ btn.addEventListener('click', btnClick)
 
 
 function btnClick (){
-    const random = Math.floor(Math.random() * 1643)
+    const random = Math.floor(Math.random() * 16)
 
     fetch(api_url)
     .then(res => res.json())
